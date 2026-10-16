@@ -565,8 +565,15 @@ body{margin:0;padding-top:env(safe-area-inset-top,0px)}
 </div>
 <div class="toast" id="toast" hidden><span id="toastMsg"></span><button id="toastUndo">تراجع</button></div>
 
-<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.min.js"></script>
-<script src="config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.117.2/dist/umd/supabase.js"></script>
+<script>
+window.MASROFI_CONFIG = {
+  supabaseUrl: "https://krlnzgzshmshapvegvfr.supabase.co",
+  supabaseAnonKey: "sb_publishable_VJsBj6nKH-JidTFWapJ_kQ_LbMh7AU2",
+  usernameDomain: "masrofi.local",
+  goldBuyFactor: 0.989, goldSellFactor: 0.995, usdSpread: 0.05
+};
+</script>
 <script>
 /*PARSER-START*/
 const CATS = [
